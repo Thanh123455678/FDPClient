@@ -70,8 +70,8 @@ object ClickGui : GuiScreen() {
     fun setDefault() {
         panels.clear()
 
-        val width = 100
-        val height = 18
+        val width = 70
+        val height = 30
         var yPos = 5
 
         for (category in Category.entries) {
