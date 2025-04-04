@@ -18,7 +18,7 @@ fun main() {
     FlatMacLightLaf.setup()
 
     // Setup instruction frame
-    val frame = JFrame("FDP | Installation")
+    val frame = JFrame("ROCK || Installion")
     frame.defaultCloseOperation = WindowConstants.EXIT_ON_CLOSE
     frame.layout = BorderLayout()
     frame.isResizable = false

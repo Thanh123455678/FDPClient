@@ -52,7 +52,7 @@ object KeyBindManager : AbstractScreen() {
 
         glPushMatrix()
         glScalef(2.0F, 2.0F, 2.0F)
-        fontSemibold40.drawString("KeyBind Manager", width * 0.21f * 0.5f, height * 0.2f * 0.5f - 0.5F, Color.WHITE.rgb, false)
+        fontSemibold40.drawString("KeyBind", width * 0.21f * 0.5f, height * 0.2f * 0.5f - 0.5F, Color.WHITE.rgb, false)
         glPopMatrix()
 
         glTranslatef(width * 0.2f, height * 0.2f + fontSemibold40.height * 2.3f, 0F)
