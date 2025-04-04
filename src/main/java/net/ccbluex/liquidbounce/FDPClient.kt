@@ -75,12 +75,12 @@ object FDPClient {
      *
      * This has all of the basic information.
      */
-    const val CLIENT_NAME = "FDPCLIENT"
+    const val CLIENT_NAME = "ROCKCLIENT"
     const val CLIENT_AUTHOR = "Zywl"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
     const val CLIENT_WEBSITE = "fdpinfo.github.io"
-    const val CLIENT_GITHUB = "https://github.com/SkidderMC/FDPClient"
-    const val CLIENT_VERSION = "b14"
+    const val CLIENT_GITHUB = "https://github.com/Thanh123455678/FDPClient"
+    const val CLIENT_VERSION = "b0"
     
     val clientVersionText = gitInfo["git.build.version"]?.toString() ?: "unknown"
     val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 0 // version format: "b<VERSION>" on legacy
